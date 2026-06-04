@@ -11,7 +11,7 @@ template or fork it.
 
 ### Using Dutch/English
 
-By default, the template uses English, however you can switch to dutch simply
+By default, the template uses English, however you can switch to Dutch simply
 by adding the `dutch` option to the `main.tex` `\documentclass`
 definition. For example:
 
@@ -21,7 +21,7 @@ definition. For example:
 ```
 
 ```tex
-% in dutch
+% in Dutch
 \documentclass[dutch]{adsai}
 ```
 
