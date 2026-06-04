@@ -1,0 +1,71 @@
+% change this if you want to work in english, or use a different bibliography
+% style
+%
+% For instance, the following would use apa7:
+% bibstyle=apa
+%
+% If your document is in English instead of Dutch, simply remove dutch
+% (do not add 'english')
+%
+% Ex: \documentclass[bibstyle=apa]{adsai}
+%
+% would make an English document with an apa7-compliant bibliography
+%
+% Ex: \documentclass[bibstyle=ieee, dutch]{adsai}
+%
+% would make a Dutch document with an ieee-compliant bibliography
+%
+% you can mix and match these as you wish.
+\documentclass[bibstyle=ieee, dutch]{adsai}
+
+% the title of your project
+\title{PROJECT TITLE}
+% the title of the module, such as 'Design Science Research' or 'Data Science'
+\modulename{MODULE NAME}
+
+% list of authors
+\author{
+student 1 (1234567890) \\
+student 2 (1234567890) \\
+student 3 (1234567890) \\
+student 4 (1234567890) \\
+name 1 (supervisor) \\
+name 2 (supervisor)
+}
+
+% academic year that this document is due in
+\academicyear{2025/2026}
+% the period that this document is due in
+\period{Q1}
+% the date that this document is due
+\date{01-01-2026}
+
+\begin{document}
+\maketitle % this adds the title, authors etc. to the beginning of your document
+
+\newpage
+
+\abstract{Maximum of 200 words: The abstract is a summary of the extended abstract as a whole. This implies that at least the following components from the extended abstract are included in summary form in the abstract: reason, objective, method, results and conclusion}
+
+\thispagestyle{empty}
+
+\newpage
+
+\input{sections/sec1_introduction}
+\input{sections/sec2_theoretical_framework}
+\input{sections/sec3_methods}
+\input{sections/sec4_results}
+\input{sections/sec5_discussion}
+\input{sections/sec6_conclusions}
+
+\newpage
+\printbibliography % this adds the bibliography to your document
+
+\newpage
+\appendix
+\appendixpage
+
+\input{appendix}
+
+
+\end{document}
