@@ -28,7 +28,7 @@ definition. For example:
 ### Using a different bibliography style
 
 By default, the template uses IEEE-style bibliography, if you want to use APA7,
-MLA or something else, simply add it to the `\docummentclass` options. For
+MLA or something else, simply add it to the `\documentclass` options. For
 example:
 
 ```tex
