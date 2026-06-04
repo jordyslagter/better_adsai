@@ -2,7 +2,8 @@
 
 This is a template that improves upon the Zuyd University ADSAI template by
 moving its styling from `main.tex` to its own document class `adsai.cls`,
-it also merges English and Dutch by way of a document class option.
+merging English and Dutch by way of a document class option, and adding
+support for bibliography styles other than IEEE.
 
 ## Getting started
 
