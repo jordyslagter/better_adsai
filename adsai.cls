@@ -41,6 +41,7 @@
 \RequirePackage{booktabs} % for professional tables
 \RequirePackage{tikz}
 \usetikzlibrary{trees}
+\RequirePackage{pgfplotstable}
 \RequirePackage{svg}
 \RequirePackage{subcaption}
 \RequirePackage{xurl}
@@ -59,6 +60,11 @@
 \RequirePackage{csquotes}
 \RequirePackage[style=\adsai@bibstyle]{biblatex}
 \addbibresource{references.bib}
+
+% if using Dutch, use EU delimiters on plots
+\ifadsai@dutch
+  \pgfplotsset{/pgf/number format/use comma}
+\fi
 
 \geometry{vmargin=2cm,hmargin=3cm}
 
