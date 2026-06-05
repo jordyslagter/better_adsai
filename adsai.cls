@@ -42,6 +42,7 @@
 \RequirePackage{tikz}
 \usetikzlibrary{trees}
 \RequirePackage{pgfplotstable}
+\pgfplotsset{compat=newest}
 \RequirePackage{svg}
 \RequirePackage{subcaption}
 \RequirePackage{xurl}
